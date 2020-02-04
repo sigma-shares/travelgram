@@ -1,0 +1,67 @@
+.wrapper_main_section {
+    width: 100%;
+    height: '';
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.wrapper_main_travelling_info {
+    width: 66%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*align-content: space-around;*/
+    padding: 15px;
+}
+
+.main_travelling_info_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.topic_1 {
+    content: "";
+    display: flex;
+    width: 256px;
+    height: 256px;
+    background-image: url("../img/pic9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.topic_2 {
+    content: "";
+    display: flex;
+    width: 256px;
+    height: 256px;
+    background-image: url("../img/pic10.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main_travelling_info_2 {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.topic_3 {
+    content: "";
+    display: flex;
+    width: 512px;
+    height: 256px;
+    background-image: url("../img/pic11.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper_section_pagination {
+    width: 738px;
+    height: 100 px;
+
+}
