@@ -1,0 +1,239 @@
+.wrapper_main_section {
+    width: '';
+    height: '';
+    display: flex;
+    justify-content: center;
+}
+
+.main_section {
+    display: flex;
+    justify-content: center;
+}
+.wrapper_main_travelling_info {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*align-content: space-around;*/
+    padding: 15px;
+}
+
+.main_travelling_info_line1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.wrapper_topic_line1 {
+    display: flex;
+    width: 48%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_travelling_info_line1_img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.main_travelling_info_line1_img_cover {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 0;
+}
+
+.main_travelling_info_line1_img_cover:hover { 
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    filter: brightness(60%);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    z-index: 2;
+}
+
+.wrapper_main_travelling_info_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_travelling_info_tag {
+    color: rgb(255, 208, 0);
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;  
+    padding: 30px 0px 10px 0px;
+}
+
+.main_travelling_info_title {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.main_travelling_info_line2 {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.wrapper_topic_line2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;   
+}
+
+.main_travelling_info_line2_img {
+    width: 615px;
+    height: 300px;
+}
+
+
+.main_travelling_info_line2_img_cover {
+    height: 300px;
+    width: 615px;
+    position: absolute;
+    z-index: 0;
+}
+
+.main_travelling_info_line2_img_cover:hover { 
+    height: 300px;
+    width: 615px;
+    position: absolute;
+    filter: brightness(60%);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    z-index: 2;
+}
+
+.main_travelling_info_tag_line2 {
+    color: rgb(255, 208, 0);
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px 10px 10px 15px;
+    align-self: start;
+}
+
+.main_travelling_info_title_line2 {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 15px 0 0 15px;
+    align-self: start;
+}
+
+.social_m_info_line2 {
+    color: lightgrey;
+    font-size: 12px;
+    align-self: flex-end;
+    padding: 0px 15px;
+}
+
+.wrapper_button_and_social_media {
+    display: flex;
+    margin: 30px 15px;
+    justify-content: space-between;
+}
+
+.wrapper_social-media_links {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_social-media_link {
+    padding: 10px;
+}
+
+.readmore_button {
+    background-color:  rgb(255, 208, 0);
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+.readmore_hover {
+    color: black;
+    text-decoration: none;
+}
+
+.social_m_info {
+    color: lightgrey;
+    font-size: 11px;    
+    margin: 15px;
+}
+
+
+.wrapper_section_pagination {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.wrapper_pages {
+    display: flex;
+    justify-content: center;
+}
+
+.section_pagination {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.section_pagination:hover {
+    background-color: rgb(255, 208, 0);
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.pages {
+    color: black;
+}
+
+@media (max-width: 1050px){
+    .main_section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    .wrapper_sidebar {
+        width: 50%;
+    }
+    .wrapper_main_travelling_info {
+        width: 50%;
+    }
+}
+
+@media (max-width: 890px){
+  
+}
+
+@media (max-width: 680px){
+    .main_section {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    .wrapper_sidebar {
+        width: 100%;
+    }
